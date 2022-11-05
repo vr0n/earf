@@ -37,4 +37,4 @@ noroot:        ; custom write func
   jmp close
 
 close:
-  xor rdx, rdx  ; must exit with this code all the time
+  xor rdx, rdx  ; must exit with this instruction all the time
